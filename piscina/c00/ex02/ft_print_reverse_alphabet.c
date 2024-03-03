@@ -1,18 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: caroldev <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: caroldev <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/03 22:37:19 by caroldev          #+#    #+#             */
-/*   Updated: 2024/03/03 22:38:06 by caroldev         ###   ########.fr       */
+/*   Created: 2024/03/03 22:40:37 by caroldev          #+#    #+#             */
+/*   Updated: 2024/03/03 22:40:41 by caroldev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_print_reverse_alphabet(void)
 {
-	write(1, &c, 1);
+	int	i;
+
+	i = 122;
+	while (i > 96)
+	{
+		write(1, &i, 1);
+		i--;
+	}
 }

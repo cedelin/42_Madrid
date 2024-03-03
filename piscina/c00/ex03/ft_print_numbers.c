@@ -1,18 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: caroldev <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: caroldev <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/03 22:37:19 by caroldev          #+#    #+#             */
-/*   Updated: 2024/03/03 22:38:06 by caroldev         ###   ########.fr       */
+/*   Created: 2024/03/03 22:42:32 by caroldev          #+#    #+#             */
+/*   Updated: 2024/03/03 23:04:54 by caroldev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_print_numbers(void)
 {
-	write(1, &c, 1);
+	int	i;
+
+	i = 48;
+	while (i < 57)
+	{
+		write(1, &i, 1);
+		i++;
+	}
 }
