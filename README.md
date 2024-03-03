@@ -1,5 +1,5 @@
 ![Logo](https://www.42madrid.com/wp-content/uploads/2020/05/42-Madrid-Quiz-1366x621.jpg)
-# Mi piscina en 42Madrid Fundación Telefónica
+# Mi trayecto por 42Madrid Fundación Telefónica
 
 **42 Madrid**, un campus de programación **innovador y gratuito**, se encuentra en el corazón del **Distrito Telefónica** en **Madrid, España**. Este espacio disruptivo, respaldado por **Fundación Telefónica**, ofrece una formación adaptada a los desafíos y perfiles digitales demandados por el mercado laboral.
 
