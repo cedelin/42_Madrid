@@ -22,10 +22,10 @@ El lema **"UPTOYOU"** refleja esta filosofía.
 
 Sin duda, ha sido uno de los retos más complicados y a su vez uno de los más enriquecedores con el que me he encontrado.
 Es un espacio perfecto para sacar lo mejor de ti mismo, no solo a nivel técnico, si no a nivel mental.
-Gestionar proyectos no es fácil, y ni que decir del tiempo, y ya si hablamos de personas...\n
+Gestionar proyectos no es fácil, y ni que decir del tiempo, y ya si hablamos de personas...
 Apaga y vámonos!
 
-Sin embargo, lo haces.\nY lo haces lo mejor qué puedes.\n
+Sin embargo, lo haces. Y lo haces lo mejor qué puedes.
 Tal vez acabas descubriendo que sí que tienes lo necesario para afrontar aún más retos y qué no quieres que se acabe ahí, ni mucho menos en 26 días.
 Quieres ser estudiante, a toda costa.
 **Es ahí cuando empieza la competencia contigo mismo, Up To You.**
