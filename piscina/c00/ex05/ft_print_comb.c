@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: caroldev <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ccedeno- <caroldev@outlook.es>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/03 23:08:47 by caroldev          #+#    #+#             */
-/*   Updated: 2024/03/04 00:54:26 by caroldev         ###   ########.fr       */
+/*   Created: 2024/03/03 23:08:47 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/03/04 15:56:58 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	ft_print_comb(void)
 	{
 		d = u;
 		while (++d <= 56)
-		{	
+		{
 			c = d;
 			while (++c <= 57)
 			{
@@ -36,10 +36,4 @@ void	ft_print_comb(void)
 		}
 		u++;
 	}
-}
-
-int main(void)
-{
-	ft_print_comb();
-	return 0;
 }
