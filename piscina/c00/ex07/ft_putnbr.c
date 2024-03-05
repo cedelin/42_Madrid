@@ -1,21 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: caroldev <caroldev@outlook.es>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/03 22:46:18 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/05 02:53:19 by caroldev         ###   ########.es       */
+/*   Created: 2024/03/05 01:36:51 by caroldev          #+#    #+#             */
+/*   Updated: 2024/03/05 02:31:20 by caroldev         ###   ########.es       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_is_negative(int n)
+void	ft_putchar(char c)
 {
-	if (n < 0)
-		(write(1, "N", 1));
+	write(1, &c, 1);
+}
+
+void	ft_putnbr(int nb)
+{
+	unsigned int	c;
+
+	if (nb < 0)
+	{
+		write(1, "-", 1);
+		c = nb * -1;
+	}
 	else
-		(write(1, "P", 1));
+	{
+		c = nb;
+	}
+	if (c / 10 != 0)
+		ft_putnbr(c / 10);
+	ft_putchar(c % 10 + 48);
 }
