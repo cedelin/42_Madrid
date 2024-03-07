@@ -39,3 +39,8 @@ Una experiencia reveladora.
 Tú decides.
 
 ![WhatsApp Image 2024-03-01 at 19 00 04](https://github.com/cedelin/42_Madrid/assets/147629979/1e5a118a-001b-4519-9f71-da5ed3c1721d)
+
+*************
+# Piscina
+
+# Cursus
