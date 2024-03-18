@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/03 22:37:19 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/04 15:37:45 by ccedeno-         ###   ########.fr       */
+/*   Created: 2024/02/09 10:01:40 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/09 10:27:48 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
 void	ft_putchar(char c)

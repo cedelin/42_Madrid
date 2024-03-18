@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: caroldev <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/05 13:09:11 by caroldev          #+#    #+#             */
-/*   Updated: 2024/03/05 14:02:56 by caroldev         ###   ########.es       */
+/*   Created: 2024/02/14 04:30:27 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/21 18:21:40 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
 void	ft_ft(int *nbr)

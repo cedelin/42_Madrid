@@ -1,36 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: caroldev <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/05 01:36:51 by caroldev          #+#    #+#             */
-/*   Updated: 2024/03/05 02:31:20 by caroldev         ###   ########.es       */
+/*   Created: 2024/02/15 22:53:33 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/15 23:17:33 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	swap(int *a, int *b)
 {
-	write(1, &c, 1);
+	int	i;
+
+	i = *a;
+	*a = *b;
+	*b = i;
 }
 
-void	ft_putnbr(int nb)
+void	ft_sort_int_tab(int *tab, int size)
 {
-	unsigned int	c;
+	int	i;
+	int	j;
 
-	if (nb < 0)
+	i = 1;
+	while (i < size)
 	{
-		write(1, "-", 1);
-		c = nb * -1;
+		j = i;
+		while (j > 0 && *(tab + j - 1) > *(tab + j))
+		{
+			swap(tab + j, tab + j - 1);
+			j--;
+		}
+		i++;
 	}
-	else
-	{
-		c = nb;
-	}
-	if (c / 10 != 0)
-		ft_putnbr(c / 10);
-	ft_putchar(c % 10 + 48);
 }

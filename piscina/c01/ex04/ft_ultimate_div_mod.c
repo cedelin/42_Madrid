@@ -1,20 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   div_mod.c                                          :+:      :+:    :+:   */
+/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: caroldev <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/05 14:31:25 by caroldev          #+#    #+#             */
-/*   Updated: 2024/03/05 15:06:22 by caroldev         ###   ########.es       */
+/*   Created: 2024/02/14 05:36:34 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/19 00:07:20 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 #include <stdio.h>
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
-	*div = a / b;
-	*mod = a % b;
+	int		resto;
+	int		mod;
+
+	resto = 0;
+	mod = 0;
+	mod = *a % *b;
+	resto = *a / *b;
+	*b = mod;
+	*a = resto;
 }

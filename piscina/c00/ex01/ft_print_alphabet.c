@@ -3,23 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/03 22:39:57 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/04 15:37:18 by ccedeno-         ###   ########.fr       */
+/*   Created: 2024/02/09 13:45:53 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/12 13:50:04 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
 void	ft_print_alphabet(void)
 {
-	int	i;
+	int		letra;
 
-	i = 97;
-	while (i < 123)
+	letra = 'a';
+	while (letra <= 'z')
 	{
-		write(1, &i, 1);
-		i++;
+		write(1, &letra, 1);
+		letra++;
 	}
 }

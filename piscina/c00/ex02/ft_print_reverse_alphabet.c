@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_reverse_alphabet.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/03 22:40:37 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/04 15:38:12 by ccedeno-         ###   ########.fr       */
+/*   Created: 2024/02/10 20:02:22 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/12 13:49:47 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 void	ft_print_reverse_alphabet(void)
 {
-	int	i;
+	int			letra;
 
-	i = 122;
-	while (i > 96)
+	letra = 'z';
+	while (letra >= 'a')
 	{
-		write(1, &i, 1);
-		i--;
+		write(1, &letra, 1);
+		letra--;
 	}
 }

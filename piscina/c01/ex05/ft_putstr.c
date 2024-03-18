@@ -1,16 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate.c                                      :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: caroldev <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/05 14:07:38 by caroldev          #+#    #+#             */
-/*   Updated: 2024/03/05 14:08:45 by caroldev         ###   ########.es       */
+/*   Created: 2024/02/14 22:44:55 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/19 01:50:56 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
 
-void	ft_ultimate(int *********nbr)
+void	ft_putstr(char *str)
 {
-	*********nbr = 42;
+	while (*str)
+		write(1, str++, 1);
 }

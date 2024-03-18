@@ -1,24 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/11 17:51:43 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/02/11 19:59:00 by ccedeno-         ###   ########.fr       */
+/*   Created: 2024/02/14 04:34:02 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/19 03:55:16 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+#include <stdio.h>
 
-void	ft_print_numbers(void)
+void	ft_ultimate_ft(int *********nbr)
 {
-	int		count;
-
-	count = '0';
-	while (count <= '9')
-	{
-		write(1, &count, 1);
-		count++;
-	}
+	*********nbr = 42;
 }

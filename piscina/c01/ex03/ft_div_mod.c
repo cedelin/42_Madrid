@@ -1,24 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/11 17:51:43 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/02/11 19:59:00 by ccedeno-         ###   ########.fr       */
+/*   Created: 2024/02/14 05:11:17 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/19 00:03:21 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+#include <stdio.h>
 
-void	ft_print_numbers(void)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-	int		count;
+	int		c;
+	int		d;
 
-	count = '0';
-	while (count <= '9')
-	{
-		write(1, &count, 1);
-		count++;
-	}
+	c = a / b;
+	*div = c;
+	d = a % b;
+	*mod = d;
 }

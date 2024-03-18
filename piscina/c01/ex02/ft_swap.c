@@ -3,20 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: caroldev <caroldev@outlook.es>             +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/05 14:23:35 by caroldev          #+#    #+#             */
-/*   Updated: 2024/03/05 14:29:25 by caroldev         ###   ########.es       */
+/*   Created: 2024/02/14 04:40:18 by ccedeno-          #+#    #+#             */
+/*   Updated: 2024/02/18 23:48:15 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
+#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {
-	int	c;
+	int		i;
 
-	c = *a;
+	i = *a;
 	*a = *b;
-	*b = c;
+	*b = i;
 }
