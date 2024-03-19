@@ -20,7 +20,8 @@ MY_SOURCES = ft_strlen.c\
 		ft_strrchr.c\
 		ft_memchr.c\
 		ft_memcmp.c\
-		ft_strnstr.c
+		ft_strnstr.c\
+		ft_strncmp.c
 
 MY_OBJECTS = $(MY_SOURCES:.c=.o)
 
