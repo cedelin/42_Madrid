@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 20:18:22 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/18 16:08:31 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/03/19 22:58:33 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,8 @@ void	*ft_memcpy(void *dest, const void * src, size_t n)
 	i = 0;
 	d = (char *)dest;
 	s = (char *)src;
-
+	if (*d == '\0' || *s == '\0')
+		return (NULL);
 	while(i < n)
 	{
 		d[i] = s[i];

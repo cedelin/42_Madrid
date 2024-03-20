@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 14:02:10 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/18 16:01:21 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/03/19 23:39:51 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *strchr(const char *s, int c)
+char *ft_strchr(const char *s, int c)
 {
-	while (*s)
+	while (*s || *s == c)
 	{
 		if (*s == c)
 			return ((char *)s);
@@ -22,3 +22,4 @@ char *strchr(const char *s, int c)
 	}
 	return (NULL);
 }
+ 
