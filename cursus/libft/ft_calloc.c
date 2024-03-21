@@ -6,7 +6,7 @@
 /*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/20 13:53:38 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/20 16:29:33 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/03/21 01:10:05 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ void *ft_calloc(size_t countelements, size_t sizebytes)
 	
 	if (countelements == 0 || sizebytes == 0)
 	{
-		count = 1;
-		size = 1;
+		countelements = 1;
+		sizebytes = 1;
 	}
 	countmem = countelements * sizebytes;
 	ptr = malloc(countmem);
