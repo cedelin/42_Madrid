@@ -25,13 +25,13 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
 	x = 0;
 	while(s[i])
 	{
-		if (i >= start && j < len)
+		if (i >= start && x < len)
 		{
 			substr[x] = s[i];
 			x++;
 		}
 		i++;
 	}
-	substr[j] = 0;
+	substr[x] = 0;
 	return (substr);
 }
