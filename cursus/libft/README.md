@@ -1,9 +1,10 @@
 # Libft
 ### **ctype.h**
 
-- ✅ **ft_isalnum.c `int ft_isalnum(int x)`**
+<summary> **✅ ft_isalnum.c `int ft_isalnum(int x)`**
     
     Comprueba si el parametro de entrada corresponde a un número o a una letra.
+</summary>
     
 - **✅ ft_isalpha.c `int ft_isalpha(int x)`**
     
