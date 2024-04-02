@@ -1,10 +1,9 @@
 # Libft
 ### **ctype.h**
 <details>
-<summary> **✅ ft_isalnum.c `int ft_isalnum(int x)`**
-    
+<summary>✅ **ft_isalnum.c `int ft_isalnum(int x)`**</summary>
     Comprueba si el parametro de entrada corresponde a un número o a una letra.
-</summary>
+</details>
     
 - **✅ ft_isalpha.c `int ft_isalpha(int x)`**
     
@@ -30,7 +29,6 @@
     
     Convierte el parametro con valor alpha a mayúscula.
     
-</details>
 ### **stdlib.h**
 
 - ✅ **ft_atoi.c `int ft_atoi(const char *str)`**
