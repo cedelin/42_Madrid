@@ -6,16 +6,18 @@
 /*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 23:25:09 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/18 15:38:21 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/02 11:51:28 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_memmove(void *dest, const void *src, size_t len)
+void	*ft_memmove(void *dest, const void *src, size_t len)
 {
 	size_t	l;
-
+	
+	if (dest == 0 && src == 0)
+		return (NULL);
 	if (src < dest)
 	{
 		l = len;
@@ -34,4 +36,5 @@ void	ft_memmove(void *dest, const void *src, size_t len)
 			l++;
 		}
 	}
+	return (dest);
 }

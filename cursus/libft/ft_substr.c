@@ -17,8 +17,15 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
 	char *substr;
 	size_t	i;
 	size_t	x;
+	size_t len_max;
+	size_t rest;
 
-	substr = (char *)malloc(len + 1);
+	rest = start - ft_strlen(s);
+	if (rest > len)
+		len_max = len;
+	else
+		len_max = rest;
+	substr = (char *)malloc(len_max + 1);
 	if (substr == 0)
 		return (NULL);
 	i = 0;

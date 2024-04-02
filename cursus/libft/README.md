@@ -1,10 +1,4 @@
 # Libft
-
-Course: Computing (https://www.notion.so/Computing-cf367869411d43a482a15d0f917c5d2e?pvs=21)
-Confidence: Somewhat Confident
-Last Edited: March 27, 2024 4:01 PM
-Tag: 42, Rank00, c, calloc, libft, malloc
-
 ### **ctype.h**
 
 - ✅ **ft_isalnum.c `int ft_isalnum(int x)`**
