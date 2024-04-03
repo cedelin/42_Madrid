@@ -1,15 +1,9 @@
 # Libft
-
-Course: Computing (https://www.notion.so/Computing-cf367869411d43a482a15d0f917c5d2e?pvs=21)
-Confidence: Somewhat Confident
-Last Edited: March 27, 2024 4:01 PM
-Tag: 42, Rank00, c, calloc, libft, malloc
-
 ### **ctype.h**
-
-- ✅ **ft_isalnum.c `int ft_isalnum(int x)`**
-    
+<details>
+<summary>✅ **ft_isalnum.c `int ft_isalnum(int x)`**</summary>
     Comprueba si el parametro de entrada corresponde a un número o a una letra.
+</details>
     
 - **✅ ft_isalpha.c `int ft_isalpha(int x)`**
     
@@ -35,7 +29,6 @@ Tag: 42, Rank00, c, calloc, libft, malloc
     
     Convierte el parametro con valor alpha a mayúscula.
     
-
 ### **stdlib.h**
 
 - ✅ **ft_atoi.c `int ft_atoi(const char *str)`**

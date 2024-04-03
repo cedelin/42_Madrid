@@ -6,7 +6,7 @@
 /*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/20 13:53:38 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/21 01:10:05 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/02 18:49:50 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,9 @@ void *ft_calloc(size_t countelements, size_t sizebytes)
 {
 	size_t countmem;
 	void *ptr;
-	
+
+	if (countelements != 0 && SIZE_MAX / countelements < sizebytes)
+		return (NULL);
 	if (countelements == 0 || sizebytes == 0)
 	{
 		countelements = 1;

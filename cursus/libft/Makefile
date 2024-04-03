@@ -23,7 +23,15 @@ MY_SOURCES = ft_strlen.c\
 		ft_strnstr.c\
 		ft_strncmp.c\
 		ft_atoi.c\
-		ft_calloc.c
+		ft_calloc.c\
+		ft_substr.c\
+		ft_strtrim.c\
+		ft_strdup.c\
+		ft_strjoin.c\
+		ft_putchar_fd.c\
+		ft_putstr_fd.c\
+		ft_putendl_fd.c\
+		ft_putnbr_fd.c
 
 MY_OBJECTS = $(MY_SOURCES:.c=.o)
 
@@ -47,4 +55,5 @@ fclean: clean
 	
 re:	fclean all
 
+>>>>>>> origin
 .PHONY: all clean fclean re

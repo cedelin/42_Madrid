@@ -6,7 +6,7 @@
 /*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 00:42:47 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/22 00:45:58 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/02 18:01:57 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 
 void ft_putendl_fd(char *s, int fd)
 {
-    write(fd, s, ft_strle(s));
-    write(fd, '/n', 1);
+	ft_putstr_fd(s, fd);
+	ft_putchar_fd('\n', fd);
 }
