@@ -1,26 +1,36 @@
 # Libft
 ### **ctype.h**
 <details>
-<summary>✅ **ft_isalnum.c `int ft_isalnum(int x)`**</summary>
+    <summary>✅ <b>ft_isalnum.c <code>int ft_isalnum(int x)</code></b></summary>
+    
     Comprueba si el parametro de entrada corresponde a un número o a una letra.
 </details>
+
+<details>
+    <summary>✅ <b>ft_isalpha.c <code>int ft_isalpha(int x)</code></b></summary>
     
-- **✅ ft_isalpha.c `int ft_isalpha(int x)`**
-    
-    Comprueba si el parametro de entrada corresponde a una letra del abecedario inglés.
-    
-- **✅ ft_isascii.c `int ft_isascii(int x)`**
+    Comprueba si el parametro de entrada corresponde a una letra del abecedario inglés
+        
+</details>
+
+<details>
+    <summary>✅ <b>ft_isascii.c <code>int ft_isascii(int x)</code></b></summary>
     
     Comprueba si el parametro de entrada corresponde a a los 127 valores asignados en ASCII.
-    
-- **✅ ft_isdigit.c `int ft_isdigit(int x)`**
-    
+</details>
+
+<details>
+    <summary><b>
+        ✅ ft_isdigit.c <code>int ft_isdigit(int x)</code></b></summary>
+
     Comprueba si el parametro de entrada corresponde a un número.
-    
-- **✅ ft_isprint.c `int ft_isprint(int x)`**
+</details>
+
+<details>
+    <summary>✅ ft_isprint.c <b><code>int ft_isprint(int x)<v ></code></summary>
     
     Comprueba si el parametro de entrada corresponde a un valor imprimible, es decir no es un carácter especial.
-    
+</details>
 - **✅ ft_tolower.c `int ft_tolower(int i)`**
     
     Convierte el parametro con valor alpha a minúscula.
