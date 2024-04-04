@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 11:59:00 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/18 17:45:16 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/04 17:55:42 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_tolower(int	i)
+int	ft_tolower(int i)
 {
 	if (i > 64 && i < 91)
 		return (i + 32);

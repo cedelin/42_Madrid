@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 00:47:27 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/22 01:07:41 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/04 17:56:49 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(int n, int fd)
 {
-	unsigned int    nbr;
+	unsigned int	nbr;
 
 	if (n < 0)
 	{

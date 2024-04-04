@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 10:17:36 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/04/02 17:49:12 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/04 17:55:56 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strtrim(char const *s1, char const *set)
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	i;
 	size_t	j;

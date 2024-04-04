@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccedeno- <ccedeno-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 23:25:09 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/04/02 11:51:28 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/04 17:41:45 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	*ft_memmove(void *dest, const void *src, size_t len)
 {
 	size_t	l;
-	
+
 	if (dest == 0 && src == 0)
 		return (NULL);
 	if (src < dest)
