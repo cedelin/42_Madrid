@@ -6,7 +6,7 @@
 /*   By: ccedeno- <ccedeno-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 20:18:22 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/04/03 12:30:01 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/04 15:49:55 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	i = 0;
 	d = (char *)dest;
 	s = (char *)src;
-	if (*d == '\0' && *s == '\0')
+	if (d == '\0' && s == '\0')
 		return (NULL);
 	while(i < n)
 	{

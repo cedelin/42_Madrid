@@ -33,7 +33,8 @@ MY_SOURCES = ft_strlen.c\
 		ft_putendl_fd.c\
 		ft_putnbr_fd.c\
 		ft_strmapi.c\
-		ft_itoa.c
+		ft_itoa.c\
+		ft_striteri.c
 
 
 MY_OBJECTS = $(MY_SOURCES:.c=.o)
