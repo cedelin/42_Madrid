@@ -6,7 +6,7 @@
 /*   By: ccedeno- <ccedeno-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 23:41:53 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/04/04 17:52:46 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/04 20:19:39 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,4 +15,9 @@
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
+}
+
+int main(void)
+{
+	ft_putchar_fd('a', 8);
 }
