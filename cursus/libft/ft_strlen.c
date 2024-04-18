@@ -6,7 +6,7 @@
 /*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/11 14:18:16 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/03/18 15:38:40 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/04/16 11:03:40 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ size_t	ft_strlen(const char *str)
 	int	i;
 
 	i = 0;
-	while(str[i])
+	while (str[i])
 	{
 		i++;
 	}
