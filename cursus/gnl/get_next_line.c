@@ -6,7 +6,7 @@
 /*   By: ccedeno- <ccedeno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/03 09:14:32 by ccedeno-          #+#    #+#             */
-/*   Updated: 2024/07/15 18:24:04 by ccedeno-         ###   ########.fr       */
+/*   Updated: 2024/07/16 15:31:29 by ccedeno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,24 +109,24 @@ static char	*ft_strchr(char *s, int c)
 	return (NULL);
 }
 
-int main (void)
-{
-	int fd;
-	char *text = get_next_line(fd);
-	
-	fd = open("text.txt", O_RDONLY);
-	if (fd < 0)
-	{
-		printf("Error de apertura");
-		return (1);
-	}
-	
-	while ((text = get_next_line(fd)) != NULL)
-	{
-		printf("%s", get_next_line(fd));
-		free(text);
-		text = NULL;
-	}
-	close(fd);
-	return(0);
-}
+// int main (void)
+// {
+// 	int fd;
+// 	char *text;
+
+// 	fd = open("text.txt", O_RDONLY);
+// 	if (fd < 0)
+// 	{
+// 		printf("Error de apertura");
+// 		return (1);
+// 	}
+
+// 	while ((text = get_next_line(fd)) != NULL)
+// 	{
+// 		printf("%s", get_next_line(fd));
+// 		free(text);
+// 		text = NULL;
+// 	}
+// 	close(fd);
+// 	return(0);
+// }
